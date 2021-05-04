@@ -16,8 +16,15 @@ code {
 .HourlyWeather {
   display: flex;
   width: fit-content;
+  min-width: 100%;
 }
 
 .HourlyWeatherSegment {
   width: 5rem;
+}
+
+.WindGraph {
+  width: 100%;
+  height: 20em;
+  border: solid;
 }
